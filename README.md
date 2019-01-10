@@ -31,6 +31,15 @@ the process was successful/unsuccessful, the mail gets copied to key prefix
 
 ---
 
+# Table of Content
+
+* [Prerequisites](#prerequisites)
+* [Deployment](#deployment)
+    * [Manual deployment tasks](#manual-deployment-tasks)
+    * [Deployment via CloudFormation](#deployment-via-cloudFormation)
+
+---
+
 ## Prerequisites
 
 In order to setup everything described above, you need to have access to the
@@ -51,6 +60,8 @@ create new records)
 I recommend to move your AWS account out of the SES sandbox to avoid to run
 into any limits or restrictions. More information about how to do this can be
 found here: https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html
+
+[Back to Table of Content](#table-of-content)
 
 ---
 
@@ -97,5 +108,6 @@ emails.
 3.
 
 
+[Back to Table of Content](#table-of-content)
 
 ---
